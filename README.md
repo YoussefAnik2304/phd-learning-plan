@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎓 PhD Deep Learning Track — 15-Day Learning Plan
 
-## Getting Started
+A personal, interactive learning tracker built to acquire the necessary **Data Science, NLP, and Deep Learning** skills for a PhD thesis on *"Twitter Data Analysis and Prediction using Deep Learning for Strategic Intelligence"*.
 
-First, run the development server:
+🌐 **Live App:** [https://phd-learning-plan.vercel.app/](https://phd-learning-plan.vercel.app/)
+
+---
+
+## 📖 About
+
+This web application provides a structured 15-day curriculum designed to transition a Software Engineering background into Applied AI and NLP. Each day includes:
+
+- 📌 A focused learning topic
+- ✅ Specific bullet-point concepts to cover
+- 🎬 A curated YouTube video or playlist
+- ⏱️ A realistic time estimate (holiday-friendly, ~1–2 hrs/day)
+- 🔘 A "Mark Done" button to track your progress (saved in browser local storage)
+
+---
+
+## 🗺️ Curriculum Overview
+
+| Day | Topic | Est. Time |
+|-----|-------|-----------|
+| 1 | Python Data Science: Pandas Basics | ~1.5 hrs |
+| 2 | Python Data Science: NumPy & Data Cleaning | ~1.5 hrs |
+| 3 | Data Visualization (Matplotlib & Seaborn) | ~1 hr |
+| 4 | Web Scraping (BeautifulSoup) | ~2 hrs |
+| 5 | Working with APIs (Twitter/X) | ~1 hr |
+| 6 | NLP Fundamentals (NLTK & spaCy) | ~1.5 hrs |
+| 7 | Machine Learning for Text (TF-IDF, Naive Bayes) | ~1.5 hrs |
+| 8 | Intro to Deep Learning (3Blue1Brown) | ~1 hr |
+| 9 | PyTorch Basics & Tensors | ~2 hrs |
+| 10 | Building Classification Models in PyTorch | ~2 hrs |
+| 11 | Recurrent Neural Networks (RNN/LSTM) | ~1.5 hrs |
+| 12 | Transformers Architecture | ~30 min |
+| 13 | Hugging Face Transformers (BERT, fine-tuning) | ~2 hrs |
+| 14 | Time Series Forecasting | ~1.5 hrs |
+| 15 | Building an AI Dashboard (FastAPI + Next.js) | ~1.5 hrs |
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
+- **Language:** TypeScript
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **State:** React `useState` + `localStorage` for persistent progress tracking
+- **Deployment:** [Vercel](https://vercel.com/)
+
+---
+
+## 🚀 Running Locally
+
+Make sure you have **Node.js** installed, then:
 
 ```bash
+git clone https://github.com/YoussefAnik2304/phd-learning-plan.git
+cd phd-learning-plan
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Project Structure
 
-## Learn More
+```
+phd-learning-plan/
+├── src/
+│   └── app/
+│       ├── page.tsx        # Main page with curriculum data & UI
+│       ├── layout.tsx      # Root layout
+│       └── globals.css     # Global styles
+├── public/                 # Static assets
+├── tailwind.config.ts      # Tailwind configuration
+└── next.config.ts          # Next.js configuration
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 PhD Thesis Context
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Thesis Title:** Analyse des données Twitter et prédiction par Deep Learning pour la veille stratégique
 
-## Deploy on Vercel
+**Goal:** Build a real-time system to collect Twitter/X data, perform sentiment analysis, predict emerging trends, and present insights through an interactive decision-making dashboard — helping businesses make data-driven strategic decisions.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 👤 Author
+
+**Youssef Anik**
+- GitHub: [@YoussefAnik2304](https://github.com/YoussefAnik2304)
